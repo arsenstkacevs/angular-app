@@ -16,10 +16,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'angular-tailwind-components' title`, () => {
+  it(`should have the 'angular-app' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-tailwind');
+    expect(app.title).toEqual('angular-app');
   });
 
   it('should render title', () => {
@@ -27,9 +27,8 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
 
-    fixture.componentInstance.
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Hello, ANGULAR-TAILWIND'
+      'Hello, ANGULAR-APP'
     );
   });
 });

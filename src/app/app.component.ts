@@ -27,7 +27,7 @@ interface Product {
   imports: [CommonModule, RouterOutlet, UpperCasePipe, ListComponent],
 })
 export class AppComponent {
-  title = 'angular-tailwind';
+  title = 'angular-app';
   productsUrl = 'https://fakestoreapi.com/products';
 
   constructor(private http: HttpClient) {
