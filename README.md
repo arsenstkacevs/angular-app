@@ -1,4 +1,4 @@
-# Simple Angular starter with Jest and Playwright
+# Simple Angular 17 starter with NgRx store and Jest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 
